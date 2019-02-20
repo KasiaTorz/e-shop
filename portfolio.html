@@ -262,10 +262,19 @@
     }
     /* main function*/
     function showSlides(n){
+       
         var i;
-/* get all elements with class name "MY-SLIDES"*/
 
+                 /* get all elements with class name "MY-SLIDES"*/
          var slidesJS =document.getElementsByClassName("my-slides");
+        /* first condition*/
+        if (n>slidesJS.length){
+            slideIndexJS=1;
+        }
+        /* secound condition img previous than 1*/
+        if (n< 1) {
+            slideIndexJS= slideIndexJS.length;
+        }
     }
     </script>
     

@@ -280,16 +280,16 @@
                  /* get all elements with class name "MY-SLIDES"*/
          var slidesJS =document.getElementsByClassName("my-slides");
         /* first condition*/
-        if (n>slidesJS.length){
-            slideIndexJS=1;
+        if ( n > slidesJS.length){
+            slideIndexJS = 1;
         }
         /* secound condition img previous than 1*/
-        if (n< 1) {
+        if (n < 1) {
             slideIndexJS= slideIndexJS.length;
         }
 
         /* loop*/
-        for (i=0; i< slideIndexJS; i++){
+        for (i= 0; i< slideJS.length; i++){
             slideIndexJS[i].style.display="none";
         }
         /* show clicked slides*/

@@ -244,6 +244,7 @@
                     </div>
                    
             </div><!--end modal-content-->
+
             <!--next and prev button in slide-->
             <a class="prev"  href="" onclick="changeSlides (-1)">&#10094;</a>
             <a  class="next" href="" onclick="changeSlides(1)">&#10095;</a>
@@ -260,8 +261,10 @@
         document.getElementById('my-modal').style.display="none";
     }
     /*declaration of variable slideIndex and start it form 1*/
-    var slideIndexJS=1;
+    var slideIndexJS= 1;
     /* calling function showSlide by passing variable indexSlideJS*/
+    showSlides(slideIndexJS);
+    
     function changeSlides(n){
         showSlides(slideIndexJS += n);
     }

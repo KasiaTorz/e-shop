@@ -76,6 +76,9 @@
         border: none;
         background-color: transparent;
     }
+    .my-slides{
+        text-align: center;
+    }
 
     
     </style>
@@ -289,11 +292,11 @@
         }
 
         /* loop*/
-        for (i= 0; i< slideJS.length; i++){
-            slideIndexJS[i].style.display="none";
+        for (i= 0; i< slidesJS.length; i++){
+            slidesJS[i].style.display = "none";
         }
         /* show clicked slides*/
-        slidesJS[slideIndexJS - 1].style.display="block";
+        slidesJS[slideIndexJS - 1].style.display = "block";
     }
     </script>
     

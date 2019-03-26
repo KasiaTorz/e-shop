@@ -305,10 +305,14 @@
     };
     /* hide body scrollbar when modal open up */
     document.body.style.overflow = "hidden";
+         /* hide navbar in modal view*/
+         document.getElementById('my-navbar').style.display = "none";
+
     /* close modal*/
     function openModal(){
-        document.getElementById('my-modal').style.display="none";
+        document.getElementById('my-modal').style.display= "none";
        /*show body scrollbar when modal is close*/ 
+       document.body.style.overflow = "auto";
     };
     /*declaration of variable slideIndex and start it form 1*/
     var slideIndexJS= 1;

@@ -24,7 +24,10 @@
             background-size: cover;
             min-height: 630px;
             position: relative;
+           
         }
+
+           
         /*about section style*/
         .section-padding{
             padding: 60px 0px;
@@ -37,18 +40,26 @@
             padding: 5px 0;
             font-size:15px;
         }
-        .about-text{
-            color: bisque;
-        }
+    
+    p,ul,li{
+    color: #010302;
+    }
+    .text-left .bg-img{
+            position: fixed;
+            z-index: 1;
+            	
+        
+    }
+    .about-text {
+        position: absolute;
+        z-index:2;
+        opacity: 0.2;
+    }
+
         </style>
     </head>
 
 <body>
-    <style>
-    p,ul, li{
-    color: #010302;
-}
-    </style>
           <div class="header-bg-gray">
                 <!--navigation bar-->
                 <nav class="navbar navbar-dark navbar-expand-md bg-dark fixed-top" id="my-navbar">
@@ -104,7 +115,7 @@
                       <div class="col-md-6 text-left">
                           <div class="bg-image"></div>
                           <div class="about-text">
-                              
+                            
                               <p class="text-uppercase font-weight-bold font-italic  " style="font-size:30px;margin-top: 15px;">Od</p>
                                  <p class="">ponad 35 lat wydobywamy emocje i budzimy pożądanie,<br>
                                 tworząc bizuterię najpiękniej wyrażającą Twój wewnętrzny Blask.<br>

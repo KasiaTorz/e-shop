@@ -94,11 +94,16 @@
                             <form class="contactForm" method="post" role="form">
                                 <!--name-->
                                 <div class="form-group">
-                                    <input type="text" name="name" class="form-control" placeholder="Name" data-role="email">
+                                    <input type="text" name="name" class="form-control" placeholder="Name" data-role="minlen:4">
                                 </div>
                                 <!--email-->
                                 <div class="form-group">
-                                        <input type="email" name="email" class="form-control" placeholder="Email" data-role="minlen:4">
+                                        <input type="email" name="email" class="form-control" placeholder="Email" data-role="email">
+                                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                    </div>
+                                <!--subject intput-->
+                                <div class="form-group">
+                                        <input type="email" name="email" class="form-control" placeholder="Email" data-role="email">
                                 </div>
 
 

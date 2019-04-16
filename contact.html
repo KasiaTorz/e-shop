@@ -44,6 +44,9 @@
       #left-column{
           background-color: coral;
       }
+      .dropdown h3{
+          color: #a8a6b1;
+      }
 
   </style>
 
@@ -135,14 +138,25 @@
          <footer id="footer">
             <div id="footer-content" class="container-fluid">
                 <div class="row">
+                    <!--dropdown 1-->
                     <div class="container-fluid dropdown">
-                         <a href="about.html" type="a href" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><h3>O Nas</h3></a>
+                         <a href="about.html" class="dropdown-toggle"  type="a href" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><h3>O Nas</h3></a>
                          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                 <a class="dropdown-item" href="#">Home</a>
                                 <a class="dropdown-item" href="#">About Us</a>
                                 <a class="dropdown-item" href="#">Portfolio</a>
                               </div>
                     </div>
+                    <!--dropdown 2-->
+                    <div class="container-fluid dropdown">
+                            <a href="blog.html" class="dropdown-toggle" type="a href" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><h3>Poradniki</h3></a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                   <a class="dropdown-item" href="#">Diamenty Idealne</a>
+                                   <a class="dropdown-item" href="#">Katalogi</a>
+                                   <a class="dropdown-item" href="#">Znajdz Salon</a>
+                                 </div>
+                    </div>
+                    <!--dropdown 3-->
 
                     <div id="rigth-column" class="col-lg-6">
                         <span> Regulamin</span>
